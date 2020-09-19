@@ -1,0 +1,133 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container{
+    background:#FFA69E;
+    color: #5E6472;
+    width: 1024px;
+    margin: 30px auto;
+    padding: 50px
+}
+.quoteoftheday{
+    width: 300px;
+    vertical-align: baseline;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+.name{
+    width: 600px;
+    vertical-align: baseline;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: right
+}
+article{
+    padding: 100px 0;
+}
+.quote h1{
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0px;
+}
+.quoteby h4{
+    font-size: 31px;
+    margin: 0;
+    margin-top: 19px;
+}
+.skills{
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+.about{
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+.profile-pic{
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.profile-pic img{
+    width: 100%;
+    border-radius: 100px;
+}
+.about p{
+    font-size: 19px;
+    padding-right: 27px;
+    font-weight: 700;
+    margin: 0;
+}
+.skills h6{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.skills ul{
+    margin: 0;
+    padding: 0;
+}
+.skills ul li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+}
+img.mobileimage{
+    display: none;
+}
+@media only screen and (max-width:1087px){
+    .container{
+        width: 340px;
+        margin: 0;
+        padding: 10px;
+    }
+    .quoteoftheday{
+        width: 100%;
+    }
+    .name{
+        width: 100%;
+        text-align: left;
+    }
+    .quote h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .quoteby h4{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    article{
+        padding: 50px 0;
+    }
+    .skills{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about{
+        width: 100%;
+    }
+    .profile-pic{
+        display: none
+    }
+    .about p{
+        font-size: 17px;
+        padding-right: 0;
+        margin: 0;
+    }
+    img.mobileimage{
+        border-radius: 50px;
+        display: block;
+        width: 120px;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+}
